@@ -1,0 +1,132 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.Logo-1{
+   padding-top: 5px;
+   margin-left: 30px;
+   width: 8%;
+}
+.Logo-1:hover{
+  
+    transform: scale(1.5);
+    transition: 1s;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    color: #0a3871;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 400px;
+  
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border:  none;
+    color:#0a3871 ;
+    margin-top: 2px;
+    text-transform: lowercase;
+}
+::placeholder{ color:#0a3871; }
+
+.text-area :focus{    outline:none ;  }
+
+.mensaje{
+    background: white;
+    background-image: url(imagen/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 25px;
+    color: #0a3871;
+    margin-left: 94px;
+    margin-top: 2px;
+    padding-left: 20px;
+    position:fixed ;
+}
+.mensaje:focus{ outline: none;}
+
+
+
+.botones{
+    display: flex;
+    margin-top:  1px;
+}
+
+.btn-encriptar{
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    background-color: #0a3871;
+    color:white;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer; 
+    font-weight: bold;   
+    margin-left: 5px;
+    width: 150px;
+}
+
+.btn-desepcritar{
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    background-color: #0a3871;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    height: 40px;
+    width: 200px;
+}
+.btn-copiar{
+    border: 1px solid #0a3871;
+    border-radius: 25px;
+    background-color: #0a3871;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 108px;
+    margin-top: 510px;
+    position: absolute;
+    width: 200px;
+ }
+ .btn-encriptar:hover{
+    background: #051527;
+    transform: scale(1.1);
+    transition: 1s;
+
+ }
+ .btn-desepcritar:hover{
+    background: #051527;
+    transform: scale(1.1);
+    transition: 1s;
+ }
+ .btn-copiar:hover{
+    background: #051527;
+    transform: scale(1.1);
+    transition: 1s;
+ }
+
+h6{
+    
+    display: inline-block;
+    vertical-align: center;
+    color: #0a3871;
+    font-size: 10px;   
+    margin-top: 2px; 
+ }

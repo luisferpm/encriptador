@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/Materias One/Solucion-Challenge-encriptador-main/Solucion-Challenge-encriptador-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Alura Challenge - Desafío 1 - Lógica"
+	}
+}
